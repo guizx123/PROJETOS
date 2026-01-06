@@ -10,6 +10,15 @@ export default function Form() {
   const [messageImc, setMessageImc] = useState("preencha o peso e altura");
   const [imc, setImc] = useState("")
   const [value, setValue] = useState("")
+  
+  const handleHeight = (text: string) => {
+    const cleaned = text.replace(/[^0-9,.]/g, "");
+    setHeight(cleaned);
+  };
+  const handleWeight = (text:string) => {
+    const cleaned = text.replace(/[^0-9,.]/g, ""); 
+    setWeight(cleaned);
+  };
 
   function imcCalculator() {
 
@@ -23,48 +32,45 @@ export default function Form() {
     if (heightNumber <= 0 || weightNumber <= 0) return;
     const result = weightNumber / (heightNumber * heightNumber)
     console.log(result)
+
+    let classification = ""
+
+    if (result < 18.5) {
+      classification = "Abaixo do peso"
+    } else if (result < 25) {
+      classification = "Peso normal"
+    } else if (result < 30) {
+      classification = "Sobrepeso"
+    } else {
+      classification = "Obesidade"
+    }
+
     setImc(result.toFixed(2))
+    setValue(classification)
   }
 
   function validationImc() {
     if (weight != "" && height != "") {
       imcCalculator()
+      setMessageImc("Seu imc é igual:")
       setHeight("")
       setWeight("")
-      setMessageImc("Seu imc é igual:")
-      finalImc()
       return
     }
     setImc("")
+    setValue("")
     setMessageImc("preencha peso e altura")
 
   }
 
 
-  function finalImc() {
-     const result = Number(imc)
-
-    if (result < 18.5){
-      setValue("Abaixo do Peso")
-    }
-    if (result > 18.5 && result < 25){
-      setValue("Peso Normal")
-    }
-    if (result > 25 && result < 30){
-      setValue("Sobrepeso")
-    }
-    else{
-      setValue("Obesidade")
-    };
-    
-  }
 
   return (
     <View style={styles.container}>
       <View style={styles.form}>
         <Text style={styles.texto}>Altura</Text>
         <TextInput style={styles.input}
-          onChangeText={setHeight}
+          onChangeText={handleHeight}
           value={height}
           placeholder="Ex 1.75"
           keyboardType="numeric" />
@@ -72,10 +78,11 @@ export default function Form() {
         <Text style={styles.texto}>Peso</Text>
 
         <TextInput style={styles.input}
-          onChangeText={setWeight}
+          onChangeText={(handleWeight)}
           value={weight}
           placeholder="Ex 80kg"
-          keyboardType="numeric" />
+          keyboardType="numeric"
+          inputMode="numeric" />
         <TouchableOpacity
           style={styles.button}
           onPress={validationImc}
@@ -83,8 +90,7 @@ export default function Form() {
           <Text style={styles.textButton}>Calcular</Text>
         </TouchableOpacity>
       </View>
-      <ResultImc messageResultImc={messageImc} ResultImc={imc} />
-      <Text>{value}</Text>
+      <ResultImc messageResultImc={messageImc} ResultImc={imc} value={value} />
     </View>
   );
 }
