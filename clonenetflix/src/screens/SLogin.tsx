@@ -8,19 +8,23 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
-    justifyContent: "flex-start", // Começa do topo
-    paddingTop: 50, // Dá um espaço para o Header não colar no topo
+    justifyContent: "flex-start",
+    paddingTop: 50,
   },
   headerArea: {
-    flex: 1, // Zona do Header (ocupa 1 parte)
+    flex: 1,
     width: "100%",
-    justifyContent: "center", // Centraliza o Header na zona dele
+    justifyContent: "center",
     alignItems: "center",
   },
   formArea: {
-    flex: 3, // Zona do Formulário (ocupa 3 partes, ou seja, é maior)
+    flex: 3,
     width: "100%",
-    justifyContent: "flex-start", // Começa do topo da zona dele
+    justifyContent: "flex-start",
     alignItems: "center",
   },
+  logo: {
+    width: 250,
+    height: 100,
+  }
 });
