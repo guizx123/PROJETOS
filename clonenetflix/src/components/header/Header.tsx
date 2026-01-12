@@ -2,26 +2,19 @@ import { View, Image, TouchableOpacity, Text } from "react-native";
 import { styles } from "./Sheader";
 import { router } from "expo-router";
 
-type HeaderProps = {
-  showLogout?: boolean
-}
-
-export default function Header({ showLogout = false }: HeaderProps) {
+export default function Header() {
   return (
-    <View style={[
-      styles.container,
-      { justifyContent: showLogout ? 'space-between' : 'center' }
-    ]}>
+    <View style={styles.container}>
       <Image
         source={require("../../../assets/images/netflix-logo.png")}
         style={styles.logo}
         resizeMode="contain"
       />
-      {showLogout && (
-        <TouchableOpacity onPress={() => router.replace('/Login')}>
-          <Text style={styles.textButton}>Sair</Text>
-        </TouchableOpacity>
-      )}
+
+      <TouchableOpacity style={styles.Button}
+        onPress={() => router.replace('/Login')}>
+        <Text style={styles.textButton}>Sair</Text>
+      </TouchableOpacity>
     </View>
   );
 }

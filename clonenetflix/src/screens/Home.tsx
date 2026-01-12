@@ -12,7 +12,7 @@ export default function Home() {
         backgroundColor: "#000",
       }}
     >
-      <Header showLogout={true} />
+      <Header />
       <ScrollView>
         <FeaturedMovie />
         {categories.map((category) => (
