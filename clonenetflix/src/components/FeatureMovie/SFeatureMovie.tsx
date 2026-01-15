@@ -11,6 +11,8 @@ export const styles = StyleSheet.create({
     },
     backgroundImage: {
         borderRadius: 20,
+        borderWidth: 1,
+        borderColor: "white",
     },
     infoContainer: {
         padding: 20,
@@ -39,6 +41,6 @@ export const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginTop: 10,
-        gap: 10,
+        gap: 60,
     },
 });

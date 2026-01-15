@@ -1,8 +1,10 @@
 import { View, Image, TouchableOpacity, Text } from "react-native";
 import { styles } from "./Sheader";
-import { router } from "expo-router";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Header() {
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <Image
@@ -12,7 +14,7 @@ export default function Header() {
       />
 
       <TouchableOpacity style={styles.Button}
-        onPress={() => router.replace('/Login')}>
+        onPress={() => navigation.navigate('Login' as never)}>
         <Text style={styles.textButton}>Sair</Text>
       </TouchableOpacity>
     </View>

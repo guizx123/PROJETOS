@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, Linking } from "react-native";
 import { styles } from "./SForm";
 
 type FormProps = {
@@ -49,7 +49,9 @@ export default function Form({ onSuccess }: FormProps) {
           <Text style={styles.TextButton}>Entrar</Text>
         </TouchableOpacity>
       </View>
-      <Text>{login}</Text>
+      <Text style={styles.textLink}
+        onPress={() => Linking.openURL('https://www.google.com')}>Esqueceu sua senha?</Text>
+      <Text style={styles.textLink}>{login}</Text>
     </View>
   );
 }

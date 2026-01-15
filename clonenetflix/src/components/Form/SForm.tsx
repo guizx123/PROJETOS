@@ -40,4 +40,11 @@ export const styles = StyleSheet.create({
   contentContainer: {
     width: "85%",
   },
+  textLink: {
+    color: "white",
+    fontSize: 14,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginTop: 15,
+  },
 });

@@ -3,12 +3,17 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import React from "react";
 
 import Form from "../components/Form/Form";
-import { router } from "expo-router";
 import { styles } from "./SLogin";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Login() {
+  const navigation = useNavigation();
+
   function loginSucess() {
-    router.replace("/Home");
+    navigation.reset({
+      index: 0,
+      routes: [{ name: 'Home' as never }],
+    });
   }
 
   return (
