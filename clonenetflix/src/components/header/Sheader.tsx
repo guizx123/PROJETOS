@@ -23,6 +23,6 @@ export const styles = StyleSheet.create({
     paddingVertical: 5,
     paddingHorizontal: 25,
     borderRadius: 5,
-    marginTop: 10,
+    marginTop: 8,
   },
 });

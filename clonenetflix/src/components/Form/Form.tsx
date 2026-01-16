@@ -51,7 +51,6 @@ export default function Form({ onSuccess }: FormProps) {
       </View>
       <Text style={styles.textLink}
         onPress={() => Linking.openURL('https://www.google.com')}>Esqueceu sua senha?</Text>
-      <Text style={styles.textLink}>{login}</Text>
     </View>
   );
 }

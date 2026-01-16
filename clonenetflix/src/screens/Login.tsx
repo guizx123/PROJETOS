@@ -12,7 +12,7 @@ export default function Login() {
   function loginSucess() {
     navigation.reset({
       index: 0,
-      routes: [{ name: 'Home' as never }],
+      routes: [{ name: 'Perfil' as never }],
     });
   }
 

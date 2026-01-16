@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import FeaturedMovie from "../components/FeatureMovie/FeatureMovie";
 import { categories } from "../data/Movie";
 import MovieRow from "../components/movieRow/MovieRow";
+import Bottom from "../components/Bottom/Bottom";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           />
         ))}
       </ScrollView>
+      <Bottom />
     </View>
   );
 }
