@@ -41,5 +41,11 @@ export const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
         fontWeight: 'bold',
+    },
+    errorMessage: {
+        fontSize: 12,
+        fontWeight: 'bold',
+        color: 'red',
+        paddingLeft: 5,
     }
 });

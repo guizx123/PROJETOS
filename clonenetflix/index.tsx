@@ -1,8 +1,8 @@
+import { registerRootComponent } from 'expo';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { registerRootComponent } from 'expo';
-import Home from './src/screens/Home';
 import Login from './src/screens/Login';
+import Home from './src/screens/Home';
 import Password from './src/screens/Password';
 import Perfil from './src/screens/Perfil';
 

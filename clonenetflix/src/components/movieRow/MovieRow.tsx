@@ -1,6 +1,6 @@
 import { FlatList, Image, Text, View } from "react-native";
-import { Movie } from "../../data/Movie";
 import { styles } from "./SMovieRow";
+import { Movie } from "@/src/data/Movie";
 
 type Props = {
   title: string;
