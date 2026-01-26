@@ -5,6 +5,7 @@ import Login from './src/screens/Login';
 import Home from './src/screens/Home';
 import Password from './src/screens/Password';
 import Perfil from './src/screens/Perfil';
+import Register from './src/screens/Register';
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,11 @@ function App() {
                 <Stack.Screen
                     name="Password"
                     component={Password}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Register"
+                    component={Register}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>

@@ -3,7 +3,7 @@ import CheckBox from 'expo-checkbox';
 import React from 'react';
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { styles } from './SPassword';
+import { styles } from './Styles/SPassword';
 
 export default function Password() {
 

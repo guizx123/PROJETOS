@@ -53,6 +53,8 @@ export default function Form({ onSuccess }: FormProps) {
       </View>
       <Text style={styles.textLink}
         onPress={() => navigation.navigate('Password')}>Esqueceu sua senha?</Text>
+      <Text style={styles.textLink}
+        onPress={() => navigation.navigate('Register')}>Não tem uma conta?</Text>
     </View>
   );
 }

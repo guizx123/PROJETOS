@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e7c119d-561d-4da7-be9d-8479dbbf36f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/app/_layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/app/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/components/FeatureMovie/FeatureMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/components/FeatureMovie/FeatureMovie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/components/header/Sheader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/components/header/Sheader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/components/movieRow/MovieRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/components/movieRow/MovieRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/components/movieRow/SMovieRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/components/movieRow/SMovieRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/data/Movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/data/Movie.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clonenetflix/src/screens/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clonenetflix/src/screens/Home.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="37qEWqGTGvYhdd4qDTnRc2bwEO5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Guilherme/Desktop/projetos/OneBitHealth"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e7c119d-561d-4da7-be9d-8479dbbf36f4" name="Changes" comment="" />
+      <created>1767622239194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767622239194</updated>
+    </task>
+    <servers />
+  </component>
+</project>

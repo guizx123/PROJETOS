@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, Image, StatusBar } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { styles } from "./SPerfil";
+import { styles } from "./Styles/SPerfil";
 
 const profiles = [
     { id: 1, name: "teste1", image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" },
