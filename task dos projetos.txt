@@ -1,0 +1,24 @@
+task do projeto clonenetflix
+
+tela de login:
+
+-verificar se os campos estão preenchidos e mandar um alerta se não estiverem
+-colocar um botão para visualizar a senha que estou inserindo
+-colocar um validador para verificar se o email é válido
+-colocar um validador para verificar se a senha tem pelo menos 6 caracteres
+
+tela e esqueceu sua senha:
+
+-colocar botão para voltar para tela de login - FEITO
+-colocar um validador para verificar se o email é válido
+-alterar o texto entre email e senha basedo no checkbox escolhido
+
+
+tela de registro:
+
+-colocar botão para voltar para tela de login - FEITO
+-colocar um validador para verificar se o email é válido - FEITO
+-colocar um validador para verificar se a senha tem pelo menos 6 caracteres
+-verificar se todos os campos foram preenchidos e mandar um alerta se não estiverem - FEITO 
+-ajustar melhor o layout - FEITO
+-Ao apertar o botão de registrar, deve mandar um alerta de cadastro criado

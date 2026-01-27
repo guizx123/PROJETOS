@@ -13,6 +13,18 @@ export const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
+        paddingBottom: 10,
+    },
+
+    contentContainer: {
+        backgroundColor: "#1a1a1a",
+        padding: 20,
+        marginHorizontal: 20,
+        borderRadius: 8,
+        width: "80%",
+        minHeight: 550,
+        alignItems: "center",
+        justifyContent: "center",
     },
     title: {
         fontSize: 24,
@@ -25,6 +37,7 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         marginBottom: 5,
         color: "#fff",
+        fontWeight: "bold",
     },
     logo: {
         width: 120,
@@ -32,14 +45,6 @@ export const styles = StyleSheet.create({
         resizeMode: "contain",
         alignSelf: "center",
         marginTop: 20,
-    },
-    contentContainer: {
-        backgroundColor: "#333",
-        padding: 20,
-        marginHorizontal: 20,
-        borderRadius: 8,
-        width: "80%",
-        height: "60%",
     },
     input: {
         width: "100%",
@@ -63,5 +68,11 @@ export const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 16,
         fontWeight: "bold",
+    },
+    textLink: {
+        color: "#fff",
+        fontSize: 16,
+        fontWeight: "bold",
+        marginTop: 20,
     },
 });
